@@ -60,7 +60,7 @@ public class MainActivity extends BaseActivity {
             mFragments[THIRD] = findFragment(MyFragment3.class);
             mFragments[FOURTH] = findFragment(MyFragment4.class);
         }
-        initView();
+        initView();//
     }
 
     private void initView() {
