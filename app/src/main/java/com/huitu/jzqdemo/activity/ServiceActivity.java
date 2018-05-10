@@ -28,14 +28,14 @@ public class ServiceActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_service);
         ButterKnife.bind(this);
-        //测试回
+        //测试回退11
     }
 
 
     @OnClick({R.id.btn, R.id.stopbtn})
     public void onViewClicked(View view) {
         switch (view.getId()) {
-            case R.id.btn:
+            case R.id.btn://haha
                 Log.i(TAG, "onViewClicked: btn"+btn.getText().toString());
                 break;
             case R.id.stopbtn:
