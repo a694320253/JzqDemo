@@ -16,13 +16,7 @@ import butterknife.OnClick;
 public class ServiceActivity extends AppCompatActivity {
 
 
-    @BindView(R.id.btn)
-    Button btn;
-    @BindView(R.id.stopbtn)
-    Button stopbtn;
-    @BindView(R.id.activity_service)
-    LinearLayout activityService;
-    private static final String TAG = "ServiceActivity";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,15 +26,5 @@ public class ServiceActivity extends AppCompatActivity {
     }
 
 
-    @OnClick({R.id.btn, R.id.stopbtn})
-    public void onViewClicked(View view) {
-        switch (view.getId()) {
-            case R.id.btn:
-                Log.i(TAG, "onViewClicked: btn"+btn.getText().toString());
-                break;
-            case R.id.stopbtn:
-                Log.i(TAG, "onViewClicked: stopbtn"+stopbtn.getText().toString());
-                break;
-        }
-    }
+
 }
