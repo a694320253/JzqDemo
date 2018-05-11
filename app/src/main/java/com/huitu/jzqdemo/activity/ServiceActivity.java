@@ -26,17 +26,7 @@ public class ServiceActivity extends AppCompatActivity {
     }
 
 
-    @OnClick({R.id.btn, R.id.stopbtn})
-    public void onViewClicked(View view) {
-        switch (view.getId()) {
-            case R.id.btn:
-                Log.i(TAG, "onViewClicked: btn"+btn.getText().toString());
-                break;
-            case R.id.stopbtn:
-                Log.i(TAG, "onViewClicked: stopbtn"+stopbtn.getText().toString());
-                break;
-        }
-    }
+
 
 
 }
