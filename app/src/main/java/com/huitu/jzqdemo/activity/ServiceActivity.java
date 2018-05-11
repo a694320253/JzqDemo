@@ -21,7 +21,7 @@ public class ServiceActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_service);
-        ButterKnife.bind(this);//777777777777777777777
+        ButterKnife.bind(this);//666666666666666
 //你好
     }
 
